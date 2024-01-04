@@ -1,0 +1,77 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  padding-left: 150px;
+}
+
+.line {
+  background-color: yellow;
+  color: yellow;
+  width: 100px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  display: inline-flex;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+}
+.Header-event {
+  padding-top: 20px;
+  height: 1px;
+  display: inline-flex;
+  background: rgba(183, 243, 18, 0.2);
+}
+
+.events {
+  padding-bottom: 30px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: #cda45e;
+}
+.fInput {
+  display: inline-flex;
+}
+.sInput {
+  display: inline-flex;
+}
+input {
+  background-color: black;
+  height: 35px;
+  width: 350px;
+}
+input {
+  color: #fff;
+  margin: 10px;
+  padding: 5px;
+}
+.tInput {
+  display: block;
+}
+textarea {
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  height: 250px;
+  width: 1100px;
+  align-content: flex-start;
+}
+.text-center button[type="submit"] {
+  align-items: center;
+  padding: 20px;
+  background: #cda45e;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+.text-center button[type="submit"]:hover {
+  background: #d3af71;
+}
+.text-center {
+  padding: 10px;
+}
