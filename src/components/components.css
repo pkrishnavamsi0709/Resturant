@@ -1,0 +1,343 @@
+.MainBox {
+  margin-left: 10vw;
+  margin-right: 5vw;
+  background-color: rgba(0, 0, 0, 0.877);
+}
+
+.ScollerBg {
+}
+
+.headingTitle {
+  color: rgb(211, 193, 193);
+  font-size: large;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.headingDescription {
+  color: rgb(235, 216, 112);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.TypesOfMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.typesNames {
+  color: rgb(211, 193, 193);
+  font-size: larger;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.typesNames:hover {
+  color: rgb(235, 216, 112);
+}
+
+.MenuItem {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.Price {
+  color: rgb(235, 216, 112);
+}
+
+.MenuItemDesc {
+  color: rgb(211, 193, 193);
+}
+
+.MenuItemHeader {
+  color: white;
+}
+
+.MenuBox {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.FullBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.ItemImg {
+  width: 100px;
+  height: 100px;
+  border: 4px solid rgb(150, 129, 129);
+  border-radius: 100%;
+}
+
+.WhyusBox {
+  width: 300px;
+  height: 270px;
+  background-color: rgb(73, 70, 70);
+  display: flex;
+  flex-direction: column;
+}
+
+.WhyusBox:hover,
+.WhyusBox:focus {
+  background-color: rgb(235, 216, 112);
+  color: #f7f0f0;
+}
+
+.whyusNo,
+.whyusDesc,
+.whyusHeading {
+  font-size: 20px;
+  color: beige;
+  margin-top: 20px;
+}
+
+.whyusNo,
+.whyusHeading {
+  font-size: 40px;
+}
+
+.Whyus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.App {
+  background-color: black;
+}
+
+.underline {
+  margin: 40px;
+  width: 82vw;
+  height: 2px;
+  background-color: rgb(235, 216, 112);
+  border: none;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.ScollerBg {
+  min-height: 100vh;
+  background-image: url("");
+  color: white;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+.carousel {
+  overflow: hidden;
+  width: 1200px;
+  display: flex;
+  margin-left: 50px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 1.5s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 490px;
+}
+
+.carousel-item-text {
+  font-size: 1.15rem;
+  margin: 40px 0 40px 0;
+  padding: 0 20px 0 20px;
+  white-space: normal;
+  color: white;
+  background: rgba(0, 0, 0, 0.01);
+  backdrop-filter: blur(3px);
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+.carousel-img {
+  height: 350px;
+  width: 500px;
+  padding: 0 20px 0 20px;
+  border-radius: 5%;
+}
+
+/* final stage */
+
+.carousel-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button-arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.indicators {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.indicator-buttons {
+  border: none;
+  cursor: pointer;
+}
+
+.indicators > button {
+  margin: 5px;
+  background: none;
+}
+
+.indicator-symbol {
+  color: #26343f;
+}
+
+.indicator-symbol-active {
+  color: #ffffff;
+}
+
+.eventHeader {
+  margin: 20px 30px;
+}
+
+.line {
+  background-color: yellow;
+  color: yellow;
+  width: 100px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  display: inline-flex;
+}
+
+.Header-event {
+  display: inline-block;
+  flex: 100%;
+}
+
+.events {
+  color: rgb(196, 196, 77);
+}
+
+/* This is for the contact form */
+
+.ContactForm {
+  width: 65%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+  background-color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactUs {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ContactInfo {
+  line-height: 1.5;
+}
+
+.FormFirst {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  color: white;
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgb(168, 164, 142);
+  margin: 10px 5px;
+  background-color: black;
+  padding: 4px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border: 1px solid rgb(235, 216, 112);
+}
+
+input[type="email"]:focus {
+  outline: none;
+  border: 1px solid rgb(235, 216, 112);
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid rgb(235, 216, 112);
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  color: #ffffff;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background-color: black;
+  margin: 10px 0px;
+  resize: none;
+}
+
+input[type="submit"] {
+  width: 20%;
+  height: auto;
+  background-color: rgb(235, 216, 112);
+  border: none;
+  color: white;
+  padding: 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.formSubmit {
+  text-align: center;
+}
+
+.info {
+  margin: 30px;
+  display: flex;
+}
+
+.InfoImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 5px 30px;
+  background-color: rgb(235, 216, 112);
+}
+
+/* .InfoImg {
+  width: 20px;
+  height: 20px;
+} */
