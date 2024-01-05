@@ -16,6 +16,7 @@ function App() {
   </div> */}
 
       <ContactUs />
+      <div></div>
 
       <Specials />
     </div>
