@@ -4,6 +4,7 @@ import "./components/components.css";
 import { Menu } from "./components/Menu";
 import { Scroll } from "./components/Scroll";
 import { ContactUs } from "./components/ContactUs";
+import Specials from "./components/Specials";
 
 function App() {
   return (
@@ -12,9 +13,12 @@ function App() {
       <Main />
       {/* <div className="ScollerBg">
         <Scroll />
-      </div> */}
+  </div> */}
 
       <ContactUs />
+      <div></div>
+
+      <Specials />
     </div>
   );
 }
